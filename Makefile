@@ -15,5 +15,14 @@ dupfgetc: dupFgetc.o
 dupfgets: dupFgets.o
 	gcc -o dupfgets dupFgets.o
 
+namelessPipe: namelessPipe.o
+	gcc -o namelessPipe namelessPipe.o 
+
+namefulPipeR: namefulPipeR.o
+	gcc -o namefulPipeR namefulPipeR.o 
+
+namefulPipeW: namefulPipeW.o
+	gcc -o namefulPipeW namefulPipeW.o 
+
 clean:
 	rm *.o
